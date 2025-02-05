@@ -1,0 +1,24 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 100vh;
+    align-items:center;
+}
+.container3{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.close{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    text-align: center;
+   justify-content: space-evenly;
+}

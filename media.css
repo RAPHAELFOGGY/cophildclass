@@ -1,0 +1,97 @@
+body{
+    background-color: orange;
+}
+.cow{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    background-color: black;
+}
+.pig{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    background-color: black;
+}
+.dog{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    background-color: black;
+}
+.corn{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.img{
+    display: none;
+}
+/* for tablet  */
+@media screen and (max-width:768px){
+        body{
+            background: green;
+        }
+
+        .container{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            place-items: center;
+            
+        }
+      .img{
+        display: flex;
+      }
+
+}
+/* for mobile */
+@media screen and (max-width:425px){
+    body{
+        background: skyblue;
+    }
+    .container{   
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        place-items: center;
+        
+      }
+     
+      .img{
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+  
+}
+   

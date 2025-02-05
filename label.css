@@ -1,0 +1,42 @@
+.grandpa{
+    background-color: blue;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parents{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+}
+
+.aint{
+    background-color: lightseagreen;
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.day{
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.dog{
+    justify-content: center;
+    align-content: center;
+    margin-right: 20px;
+}
+.left{
+    justify-content: center;
+    align-content: center; 
+}
